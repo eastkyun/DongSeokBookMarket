@@ -1,0 +1,132 @@
+.header{
+    width: 80%;
+    margin: 0 auto;
+}
+.gnb{
+    overflow:hidden;
+    margin-bottom:  50px;
+}
+
+.gnbmenu{
+    float: right;
+}
+.gnb a{
+    text-decoration: none;
+    color : gray;
+
+}
+.lns{
+    overflow:  hidden;
+}
+.header .logo{
+    float: left;
+}
+.logo .logoimg{
+    width: 60%;
+}
+.search{
+    position: relative;
+    float: left;
+    left:130px;
+    top:15px;
+}
+.searchbar{
+    border: 3px solid rgb(242,93,46);
+    padding: 7px 0;
+    font-size: 18px;
+}
+.searchbutton{
+    position: relative;
+    width:60px;
+}
+.lnb{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(242,93,46);
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+.lnb a{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 5%;
+}
+
+.lnbmenu{
+
+}
+.section{
+    background-color: #f2f4f7;
+    margin : 20px 0;
+}
+.footer{
+    overflow: hidden;
+    border: 2px solid rgb(127,127,127);
+    width : 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #DCDCDC;
+}
+
+.footer .logo img{
+    top:10px;
+    bottom:10px;
+    position: relative;
+    width: 300px;
+    float: left;
+    border-right: 2px solid rgb(127,127,127);
+    margin-right: 2%;
+}
+
+.footer .content p{
+    font-size:1.2em;
+    font-weight: bold;
+}
+.section .inform{
+    width: 80%;
+    position: relative;
+    left: 40%;
+    padding : 10px;
+}
+.base{width:80%;margin: 0 auto;overflow: hidden;height:100%;
+    border : 2px solid rgb(242,93,46) ; background-color:white;
+}
+.selectbar{float:left; width:15%;  padding-top:20px}
+.selectbar ul{font-size:1.5em; margin-top: 10px;}
+.selectbar li{ margin-top: 10px; padding-top:20px;}
+.selectbar a{text-decoration: none;; color:black; font-weight:bold;}
+.selectbar h2 { color:rgb(242,93,46); font-weight:bold; text-align:center; }
+/* .notice{float:left; width:85%;height:100%;border: 5px solid white; border-left: 2px solid rgb(242,93,46);} */
+.board{margin: 10px;}
+
+.free {
+    border-left:2px solid rgb(242, 93, 46);
+}
+
+.free table {
+    width:90%;
+}
+.free h1 {
+text-align:center; text-decoration:underline rgb(242, 93, 46); margin-bottom:3%;
+font-weight: bold;margin-top: 2%; font-size:4em;
+}
+.free > a {position: relative; left:5%}
+.like{
+    font-size:0.8em;
+}
+.list .data{
+    height: 300px;
+    line-height: 300px;
+}
+
+.write {
+    font-size: 1.5em;
+    background-color: rgb(242, 93, 46);
+    color:white;
+
+}
+/* font-weight:bold; position:relative; left:5%; margin-top:20px;
+   text-align:center; text-decoration:underline rgb(242, 93, 46); margin-bottom:3%; */
